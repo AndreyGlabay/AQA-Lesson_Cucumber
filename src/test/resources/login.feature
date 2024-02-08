@@ -11,7 +11,7 @@ Feature: feature1
     Then the user is redirected to the home page after manual login
 
   Scenario:  Successful SSO login
-    When the user clicks SSO with Google <G> button
+    When the user clicks SSO with Google <Google_logo> button
     And in the window that appeared, the user clicked on their Google account
     Then the user is redirected to the home page after SSO
 
